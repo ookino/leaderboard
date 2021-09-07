@@ -1,2 +1,12 @@
+.row {
+  display: flex;
+  align-items: center;
+}
 
-/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
+.main-wrapper {
+  flex-basis: 100%;
+}
+
+.mr {
+  margin-right: 20px;
+}/*# sourceMappingURL=style.css.map */
