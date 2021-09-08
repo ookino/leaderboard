@@ -7,13 +7,14 @@
   </head>
   <body>
     <header>
-      <div class="container"></div>
-      <h1>Leaderboard</h1>
+      <div class="container">
+        <h1>Leaderboard</h1>
+      </div>
     </header>
     <main class="row">
-      <div class="container row">
+      <div class="container row wrapper">
         <section class="recent-scores mr">
-          <div class="row">
+          <div class="row space-btw">
             <h2 class="mr">Recent Scores</h2>
             <button type="button">Refresh</button>
           </div>
@@ -27,6 +28,8 @@
         </section>
         <section class="add-score">
           <form>
+          <h2 class="mr">Add Score</h2>
+          <form id="add-form">
             <input type="text" name="name" id="name" placeholder="Your name" />
             <input
               type="number"
@@ -34,11 +37,7 @@
               id="score"
               placeholder="Your Score"
             />
-            <input
-              type="button"
-              value="Submit
-            "
-            />
+            <button type="button">Add Score</button>
           </form>
         </section>
       </div>
